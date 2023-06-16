@@ -1,0 +1,23 @@
+body
+{
+    background: #45444b url('/imagens/fundo.jpg');
+    font: 16px Arial, Helvetica, sans-serif;
+    color: beige;
+    border: 0;
+    width: 0;
+}
+
+/*Configuração da Imagem*/
+#main
+{
+    width: 900px;
+    margin-top: 10px;    
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/*Menu*/
+#menu
+{
+    padding: 18px;
+}
