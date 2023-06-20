@@ -1,23 +1,82 @@
+/*Body*/
 body
 {
-    background: #45444b url('/imagens/fundo.jpg');
-    font: 16px Arial, Helvetica, sans-serif;
-    color: beige;
-    border: 0;
-    width: 0;
+    background-image: url('imagens/fundo.jpg');
+    font:16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-/*Configuração da Imagem*/
-#main
+/*Home*/
+#home
 {
+    
+    background-color: rgb(204, 197, 197);
     width: 900px;
     margin-top: 10px;    
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
-/*Menu*/
+/*Nav*/
 #menu
 {
-    padding: 18px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+#menu ul
+{
+    display: inline-flex;
+}
+
+#menu ul li
+{
+    text-align: center;
+    margin: 20px;
+    font-size: 24px;
+    list-style: none;
+}
+
+#menu ul li a
+{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#menu ul li a:hover
+{
+    color: rgba(41, 13, 18, 0.329);
+}
+
+/*Home*/
+#sobre
+{
+      background-color: rgba(223, 217, 217, 0.473);
+}
+
+#home h1
+{
+  text-align: center;
+  padding: 15px;
+}
+
+#home p
+{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right:50px ;
+}
+
+footer
+{
+    text-align: center;
+    font-weight: 600;
+}
+
+span
+{
+    color: rgb(81, 87, 90);
 }
