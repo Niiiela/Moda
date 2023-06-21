@@ -69,7 +69,20 @@ body
     margin-left: 50px;
     margin-right:50px ;
 }
+/*Campanha*/
+#imagens
+{
+    text-align: center;
+}
 
+/*Formulário*/
+#formulario
+{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 650px;
+    background: white;
+}
 footer
 {
     text-align: center;
